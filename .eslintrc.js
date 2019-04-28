@@ -18,9 +18,10 @@ module.exports = {
   plugins: ['react'],
   rules: {
     'no-console': 'off',
-    'react/prop-types': 0
+    'react/prop-types': 0,
+    'react/no-unescaped-entities': 0
   },
-
+  parser: 'babel-eslint',
   settings: {
     react: {
       pragma: 'React',
